@@ -1,12 +1,37 @@
 public class Operadores {
   public static void main(String[] args) {
-    int a, b;
+
+    String nomeUm = "ANNA";
+    String nomeDois = new String ("ANNA");
+
+    System.out.println(nomeUm.equals(nomeDois));    
+
+    int numero1 = 1;
+    int numero2 = 2;
+
+    boolean simNao = numero1 != numero2;
+
+    System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+    simNao = numero1 != numero2;
+
+    System.out.println("numeroUm é diferente de numeroDois? " + simNao);
+
+    simNao = numero1 > numero2;
+
+    System.out.println("numeroUm é maior que numeroDois? " + simNao);
+
+    simNao = numero1 >= numero2;
+
+    System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+   /*int a, b;
     a = 6;
     b = 6;
     String resultado = a==b ? "verdadeiro" : "falso";
     // operador ternario não se limita à String
 
-    System.out.println(resultado);
+    System.out.println(resultado); */ 
     /*EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE */
     /*if (a==b){
       resultado = ("Verdadeiro.");      
